@@ -21,9 +21,9 @@ for(int i=0;i<5;i=-(~i)){
     int k=(int)l;
     k=5-k;
     s+=k;
-    cout<<"+ "<<k<<" лузер"<<endl;
+    cout<<"+ "<<k<<" баллов"<<endl;
 }
-string p=(s>=10)?"  ":"ëóçåð";
+string p=(s>=10)?"  ":"лузер";
 cout<<"Вы набрали "<<s<<" баллов  "<<p<<endl;
 return 0;
 }
