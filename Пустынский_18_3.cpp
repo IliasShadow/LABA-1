@@ -19,7 +19,7 @@ for(int i=0;i<5;i=-(~i)){
     cout<<"Вы попали в точку "<<x<<" "<<y<<endl;
     double l=sqrt(x*x+y*y);
     int k=(int)l;
-    k=5-k;
+    k=(k<6)?(5-k):0;
     s+=k;
     cout<<"+ "<<k<<" баллов"<<endl;
 }
